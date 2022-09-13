@@ -1,0 +1,84 @@
+.window{
+	background-color:#999999;
+	width: 640px;
+	height: 60px;
+	text-align: left;
+	font-size: 50px;
+	font-weight: 55px;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	margin-left: 20%;
+	
+}
+.titie2{
+	font-weight: 20px;
+	font-size: 22px;
+	font-style: initial;
+}
+.personinformation{
+	background-color:#999999;
+	height: 55px;
+	width: 150px;
+	font-size: 35px;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	text-align: center;
+	font-weight: 20px;
+	color: #ffffff;
+	border: solid;
+	margin-right: 50px;
+	background-color:#999999;
+	
+}
+.leftborder
+{
+	
+	height: px;
+	width: 100px;
+	border: 2px solid #999999;;
+	
+}
+
+.baseinformation
+{
+	font-weight: 20px;
+	font-size: 30px;
+	font-style: italic;
+	padding: auto;
+	
+}
+.inforsmalle
+{
+	font-weight: 20px;
+	font-size: 30px;
+	font-style: italic;
+	margin-left: 105px;
+}
+.timesym
+{
+	font-style:oblique;
+	color: #999999;;
+}
+.educationback
+{
+	font-style:oblique;
+	color: #999999;;
+	margin-right: 30px;
+	text-align: center;
+}
+.left2
+{
+	width: 100px;
+	height: 100px;
+	float: right;
+	border:1px solid #000;
+}
+body
+{
+	background-color: antiquewhite;
+	
+}
