@@ -1,0 +1,193 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+bady
+{
+	
+	background-color:#E040FB;
+}
+.nav
+{
+	width: 100%;
+	height: 30px;
+	display: flex;
+	background-color: #9E9E9E;
+}
+.nav .number1
+{
+	height: 30px;
+	float: left;
+	background-color: #9E9E9E;
+}
+.nav .number2:hover{
+	background: #E040FB;
+}
+.nav .number2 a{
+	text-decoration:none;
+	color: silver;
+	cursor: pointer;
+	
+}
+.nav .number2
+{
+	height: 30px;
+	width: 100PX;
+	float: right;
+	text-align: center;
+	
+	background-color: #9E9E9E ;	
+	
+	
+}
+.nav .number2 div
+{
+	float: right;
+	margin-right: 30px;
+	background-color: #9E9E9E;
+}
+.slidershow
+{
+	width: 800px;
+	height: 600px;
+	overflow: hidden;
+	background-color: #E040FB;
+	box-shadow: 0 2px 0 0 black;
+}
+.middle
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+}
+.navi
+{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+}
+.bar
+{
+	width: 50px;
+	height: 10px;
+	border: 2px solid #fff;
+	margin: 6px;
+	cursor: pointer;
+}
+.bar:hover
+{
+	background: #fff;
+}
+input[name="r"]
+{
+	position: absolute;
+	visibility: hidden;
+}
+.slides
+{
+	width: 500%;
+	height: 100%;
+	display: flex;
+	position: absolute;
+	top: 0;
+}
+.slide{
+	width: 20%;
+	transition: 0.6s;
+}
+.slide img
+{
+	width: 100%;
+	height: 100%;
+}
+#r1:checked ~ .s1{
+	margin-left: 0;
+}
+#r2:checked ~ .s1{
+	margin-left: -20%;
+	}
+#r3:checked ~ .s1{
+	margin-left: -40%;
+}
+#r4:checked ~ .s1{
+	margin-left: -60%;
+}
+
+.left
+{
+	width: 23.65%;
+	height: 599px;
+	background:#757575;
+	float: left;
+	margin-top: 44px;
+	box-shadow: 0 2px 0 0 black;
+	border-radius: 20px;
+}
+.right
+{
+		width: 23.65%;
+		height: 599px;
+		background: #757575;
+		float: right;
+		margin-top: 44px;
+		box-shadow: 0 2px 0 0 black;
+		border-radius: 20px;
+}
+.picture img
+{
+	margin-top: 100px;
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	margin: 0 auto;
+	margin-left: 60px;
+	
+}
+.left inf{
+	
+	margin-left: 80px;
+}
+.line
+{
+	height: 3px;
+	width: 350px;
+	background-color: black;
+}
+.right .right-head
+{
+	text-align: center;
+}
+.contailer
+{
+	width: 100%;
+	height: 640px;
+	display: block;
+	background: #9E9E9E;
+}
+.footer
+{
+	width: 100%;
+	height: 80px;
+	background-color:#757575;
+	margin-top:0px;
+	font-weight: 700;
+	
+	}
+	.footer p{
+		text-align: center;
+	}
+	.line2
+	{
+		height: 3px;
+		width: 100%;
+		background-color: #616161;
+		display: ruby;
+	}
+	.contailer
+	{
+		background-color: #9E9E9E;
+	}

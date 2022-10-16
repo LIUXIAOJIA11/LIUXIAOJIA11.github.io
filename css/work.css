@@ -1,0 +1,594 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.contailer .nav{
+	position: relative;
+	width: 100%;
+	height: 80px;
+	box-shadow: 0 5px 0 0 black;
+	background: #EFEFEF;
+}
+.contailer .nav a{
+	text-decoration: none;
+	color: black;
+	
+}
+.contailer .nav a:hover{
+	background: #33DBDB;
+	border-radius: 5PX;
+}
+.contailer .nav h2{
+	color: #4B2C32;
+	
+}
+.contailer{
+	background: #EFEFEF;
+	height: 3200px;
+}
+.contailer .nav .nleft{
+	position: absolute;
+	left: 0;
+	line-height: 80px;
+}
+.contailer .nav .nright{
+	position: absolute;
+	right: 0;
+	line-height: 80px;
+}
+.contailer .nav .nright1{
+	position: absolute;
+	right: 150px;
+	line-height: 80px;
+}
+
+.contailer .pictrue{
+	width: 1519px;
+	height: 800px;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+}
+#imglist{
+	width: 7595px;
+	height: 800px;
+	
+}
+#imglist img{
+	width: 1519px;
+	height: 800px;
+}
+#imglist li{
+	float: left;
+}
+.prev{
+	background: #666;
+	width: 30px;
+	height: 40px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	position: absolute;
+	left: 5px;
+	top: 45%;
+	cursor: pointer;
+}
+.next{
+	background: #666;
+	width: 30px;
+	height: 40px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	position: absolute;
+	right: 5px;
+	top: 45%;
+	cursor: pointer;
+}
+#iconlist li{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #666;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	float: left;
+	margin-left: 5px;
+	cursor: pointer;
+	list-style: none;
+}
+#iconlist{
+	position: absolute;
+	right: 75px;
+	bottom: 10px;
+	
+	
+}
+.down{
+	height: 1800px;
+	margin: 0 auto;
+	width: 850px;
+	
+	position: relative;
+	
+}
+.down .dleft{
+	width: 70%;
+	height: 730px;
+	
+	position: relative;
+	border-radius: 20px;
+}
+.down .dright{
+	width: 30%;
+	height: 730px;
+	
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.down .dright .rfooteer .rfooter1{
+	height: 286px;
+	width: 100%;
+	
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.down .dright .rfooteer
+{
+	position: relative;
+	width: 100%;
+	
+}
+.down .dright .rfooteer .rfoottext{
+	position: absolute;
+	top: 20px;
+	left: 25px;
+	width: 90%;
+	
+
+}
+
+.down .dright .rfooteer .rfoottext li{
+	list-style-type: none;
+	
+	
+	margin-top: 30px;
+	
+}
+.down .dright .rfooteer .rfoottext .a1{
+	width: 20px;
+	height: 20px;
+	border-radius: 3px;
+	position: absolute;
+	left: -20px;
+	bottom: -3px;
+	background: #FD3501;
+	text-align: center;
+	line-height: 20px;
+}
+.down .dright .rfooteer .rfoottext .a2{
+	width: 20px;
+	height: 20px;
+	border-radius: 3px;
+	position: absolute;
+	left: -20px;
+	bottom: 48px;
+	text-align: center;
+	line-height: 20px;
+	background: #FF6400;
+}
+.down .dright .rfooteer .rfoottext .a3
+{
+	width: 20px;
+	height: 20px;
+	border-radius: 3px;
+	position: absolute;
+	left: -20px;
+	bottom: 99px;
+	background: #FC9700;
+	text-align: center;
+	line-height: 20px;
+}
+.down .dright .rfooteer .rfoottext .a4{
+	width: 20px;
+	height: 20px;
+	border-radius: 3px;
+	position: absolute;
+	left: -20px;
+	bottom: 150px;
+	background: #666666;
+	text-align: center;
+	line-height: 20px;
+}
+.down .dright .rfooteer .rfoottext .a5{
+	width: 20px;
+	height: 20px;
+	border-radius: 3px;
+	position: absolute;
+	left: -20px;
+	bottom: 200px;
+	background: #666666;
+	text-align: center;
+	line-height: 20px;
+}
+.down .dright .rfooteer .rfoottext .line7{
+	width: 100%;
+	border: 0.5px solid #DDDDDD;
+	
+	position: absolute;
+}
+.down .dright .rfooteer .line5{
+	width: 100%;
+	border: 0.5px solid #DDDDDD;
+	position: absolute;
+	top: 20px;
+}
+.down .dright .rfooteer .line6{
+	width: 100%;
+	border: 0.5px solid #DDDDDD;
+	position: absolute;
+	top: 50px;
+}
+.down .dright .drighthead .line{
+	border: 1px solid #DDDDDD;
+	position: absolute;
+	width: 100%;
+	top: 28px;
+}
+.down .dright .textright1{
+	display: flex;
+	
+	justify-content: space-around;
+	margin-top: 30px;
+	
+}
+.down .dright .textright1 img{
+	width: 30px;
+	height: 30px;
+	
+	top: 50px;
+	
+	
+}
+.down .dright .textright2{
+	height: 160px;
+	width: 100%;
+	
+	text-align: center;
+}
+.down .dright .textright2 img{
+	width: 80%;
+	border-radius: 5px;
+	position: absolute;
+	left: 25px;
+}
+.down .dright .texthead2{
+	border-radius: 10px;
+	width: 80%;
+	height: 150px;
+	background: white;
+	margin-left: 20px;
+}
+.down .dright .texthead2 .line2{
+	width: 100%;
+	border: 0.5px solid #DDDDDD;
+	background: #666;
+}
+.down .dright .texthead2 .flexbox{
+	position: relative;
+}
+.down .dright .texthead2 .flexbox .first{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 8px;
+	margin-right: 20px;
+	
+	
+	
+}
+
+.down .dright .texthead2 .flexbox .second{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 8px;
+	margin-right: 20px;
+}
+.down .dright .texthead2 .flexbox .trird{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	margin-top: 8px;
+	margin-right: 15px;
+}
+.down .dright .texthead2 .flexbox .four{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	margin-top: 8px;
+	margin-right: 5px;
+}
+
+.down .dright .texthead2 .flexbox .four div{
+	width: 40px;
+	border-radius: 5px;
+	height: 20px;
+	background: #33DBDB;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20PX;
+	color: white;
+}
+.down .dright .texthead2 .flexbox .trird div{
+	width: 60px;
+	border-radius: 5px;
+	height: 20px;
+	background: #FF4364;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20PX;
+	color: white;
+}
+.down .dright .texthead2 .flexbox .second div{
+	width: 50px;
+	border-radius: 5px;
+	height: 20px;
+	background: #8A9B0F;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20PX;
+	color: white;
+}
+.down .dright .texthead2 .flexbox .second .s2{
+	width: 60px;
+	border-radius: 5px;
+	height: 20px;
+	background: #84AF9B;
+}
+.down .dright .texthead2 .flexbox .first div{
+	width: 50px;
+	border-radius: 5px;
+	height: 20px;
+	background: #3399BF;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20PX;
+	color: white;
+}
+.down .dleft .dhead{
+	
+	
+	width: 95%;
+	position: absolute;
+	top: 20px;
+	border: 1px solid #B6B6B6;
+	box-shadow: 0px 1px 0px #B6B6B6;
+	left: 15px;
+}
+.down .dleft .text1{
+	width: 100%;
+	border: 1px solid #B6B6B6;
+	border-radius: 10px;
+	height: 300px;
+	padding: 2px ;
+	box-shadow: 1px 2px 1px 1px #B6B6B6;
+	position: absolute;
+	top: 40px;
+	
+}
+
+.down .dleft .text2 img{
+	width: 450px;
+	border: 1px solid black;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 20px;
+}
+.down .dleft .text2 .nb{
+	position: absolute;
+	top: 280px;
+	
+	
+	color: #fff;
+	
+}
+.down .dleft .text2{
+	width: 100%;
+	border-radius: 13px;
+	border: 1px solid #B6B6B6;
+	box-shadow: 1px 2px 1px 1px #B6B6B6;
+	height: 330px;
+	position: absolute;
+	top: 400px;
+}
+.down .dleft .text1 .text11{
+	position: absolute;
+	left: 5px;
+}
+.down .dleft .text1 .text12{
+	width: 70%;
+	position: absolute;
+	right: 0;
+	top: 50px;
+}
+.down .dleft .text1 .ss {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 30px;
+	
+	
+	
+}
+.down .dleft .text1 .ss .ss1{
+	
+	left: 5px;
+}
+.down .dleft .text1 .ss .ss2{
+	position: absolute;
+	right: 5px;
+}
+.down .dleft .text1 img{
+	width: 130px;
+	position: absolute;
+	left: 5px;
+	top: 50px;
+	border-radius: 5px;
+}
+.down .gooddaily{
+	display: flex;
+	flex-direction: column;
+	
+	
+}
+.down .gooddaily .text3{
+	width: 100%;
+	height: 300px;
+	border: 1px solid #B6B6B6;
+	
+	box-shadow: 1px 2px 1px 1px #B6B6B6;
+	background: #fff;
+	margin-top: 30px;
+}
+.down .gooddaily .goodheader{
+	height: 30px;
+	
+	margin-top: 50px;
+}
+.down .gooddaily .goodheader .goodline{
+	width: 100%;
+	border: 1px solid #B6B6B6;
+	box-shadow: 0px 2px #B6B6B6;
+}
+.down .gooddaily .text3 img{
+	width: 200px;
+	margin-top: 50px;
+	border-radius: 5px;
+	
+}
+.down .gooddaily .text3{
+	width: 100%;
+	height: 300px;
+	border: 1px solid #B6B6B6;
+	box-shadow: 1px 2px 1px 1px #B6B6B6;
+	background: #fff;
+	margin-top: 30px;
+	position: relative;
+	border-radius: 15px;
+	box-shadow: 1px 2px 1px 1px #B6B6B6w;
+	
+}
+.down .gooddaily .text3 .text3hed{
+	height: 0px;
+	width: 150px;
+}
+.down .gooddaily .text3 .textpic1{
+position: relative;
+}
+.down .gooddaily .text3 .gh{
+	height: 300px;
+	width: 70%;
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	
+	
+	
+}
+.down .gooddaily .text4{
+	width: 100%;
+	height: 300px;
+	border-radius: 15px;
+	border: 1px solid #B6B6B6;
+	box-shadow: 1px 2px 1px 1px #B6B6B6;
+	background: #fff;
+	margin-top: 30px;
+	position: relative;
+}
+.down .gooddaily .text4 .text4hed{
+	height: 0px;
+	width: 150px;
+}
+.down .gooddaily .text4 .textpic2{
+position: relative;
+}
+.down .gooddaily .text4 .gg{
+	height: 300px;
+	width: 70%;
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	
+}
+.down .gooddaily .text4 img{
+	width: 200px;
+	margin-top: 30px;	
+}
+.down .gooddaily .text5{
+	width: 100%;
+	height: 300px;
+	border-radius: 15px;
+	border: 1px solid #B6B6B6;
+	box-shadow: 1px 2px 1px 1px #B6B6B6;
+	background: #fff;
+	margin-top: 30px;
+	position: relative;
+}
+.down .gooddaily .text5 .text5hed{
+	height: 0px;
+	width: 150px;
+}
+.down .gooddaily .text5 .gj{
+	height: 300px;
+	width: 70%;
+	position: absolute;
+	top: 50px;
+	right: 70px;
+	
+}
+.down .gooddaily .text5 img{
+	width: 170px;
+	margin-top: 30px;	
+}
+.down .gooddaily .text6{
+	width: 100%;
+	height: 300px;
+	border-radius: 15px;
+	border: 1px solid #B6B6B6;
+	box-shadow: 1px 2px 1px 1px #B6B6B6;
+	background: #fff;
+	margin-top: 30px;
+	position: relative;
+}
+.down .gooddaily .text6 .text6hed{
+	height: 23px;
+	width: 150px;
+}
+.down .gooddaily .text6 img{
+	width: 200px;
+	margin-top: 30px;	
+}
+.down .gooddaily .text6 .gp{
+	height: 300px;
+	width: 70%;
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	
+}
+.contailer .footer{
+	height: 150px;
+	width: 100%;
+	background-color: #DDDDDD;
+	margin-top: 350px;
+	display: flex;
+	justify-content: space-around;
+	box-shadow: 1px 2px 1px 1px #8A8A8A;
+	border-radius: 20px;
+}
